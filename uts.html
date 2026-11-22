@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- AWAL HEADER -->
+    <div class="header">
+        <h1>JUDUL KEGIATAN KAMPUS</h1>
+        <ul>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Rundown</a></li>
+            <li><a href="#">Daftar</a></li>
+        </ul>
+    </div>
+    <!-- AKHIR HEADER -->
+
+    <!-- AWAL TENTANG -->
+     <section class="tentang">
+    <div class="gambar">
+        <img src="/images/image.jpg" alt="Foto Kegiatan">
+    </div>
+
+    <div class="deskripsi">
+        <h2>Tentang Kegiatan</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sed provident culpa nostrum repellendus vero voluptas exercitationem alias eum voluptatibus.<br>
+            <a href="#">[Tautan Panduan Kegiatan ↗]</a>
+        </p>
+    </div>
+</section>
+    <!-- AKHIR TENTANG -->
+
+    <!-- AWAL SYARAT -->
+     <section id="rundown">
+    <!-- Kotak Kiri: Unordered List (ul) -->
+    <div class="card">
+      <h2>Syarat Peserta</h2>
+      <ul>
+        <li>Poin syarat 1</li>
+        <li>Poin syarat 2</li>
+      </ul>
+    </div>
+
+    <!-- Kotak Kanan: Ordered List (ol) -->
+    <div class="card">
+      <h2>Alur Pendaftaran</h2>
+      <ol>
+        <li>Isi data</li>
+        <li>Verifikasi</li>
+        <li>Kirim</li>
+      </ol>
+    </div>
+  </section>
+     <!-- AKHIR SYARAT -->
+
+     <!-- AWAL FORMULIR PENDAFTARAN -->
+      <section id="daftar">
+    <form action="#" method="POST">
+      <!-- Baris Input Data -->
+      <div class="form-row">
+        <input type="text" name="nama" placeholder="Nama Lengkap" required>
+        <input type="email" name="surel" placeholder="Surel / Email" required>
+        <input type="date" name="tanggal_lahir" required>
+        <select name="divisi" required>
+          <option value="" disabled selected>Pilih Divisi</option>
+          <option value="acara">Divisi Acara</option>
+          <option value="humas">Divisi Humas</option>
+          <option value="perlengkapan">Divisi Perlengkapan</option>
+        </select>
+      </div>
+
+      <!-- Baris Persetujuan & Tombol Kirim -->
+      <div class="form-footer">
+        <label class="checkbox-group">
+          <input type="checkbox" name="persetujuan" required>
+          <span>Saya menyetujui syarat dan ketentuan yang berlaku</span>
+        </label>
+
+        <button type="submit" class="btn-submit">Kirim Pendaftaran</button>
+      </div>
+    </form>
+  </section>
+      <!-- AKHIR FORMULIR PENDAFTARAN -->
+
+      <!-- AWAL FOOTER -->
+    <div class="footer">
+        &copy; 2026 Pemrograman Web . Informasi Patinia
+    </div>
+    <!-- AKHR FOOTER -->
+</body>
+</html>

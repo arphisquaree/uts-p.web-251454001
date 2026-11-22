@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #115263;
+    color: white;
+    margin: 15px 18px;
+    padding: 20px 38px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+ul a {
+    background-color: #0874a6;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 12px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul a:hover {
+    background-color: #0a8bc4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tentang {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 30px;
+}
+
+.gambar {
+    width: 30%;
+    height: 132px;
+}
+
+.gambar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border: 2px solid #94a8bf;
+    border-radius: 10px;
+}
+
+.deskripsi {
+    flex: 1;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+
+.deskripsi h2 {
+    font-size: 23px;
+    color: #172033;
+    margin: 0 0 10px;
+}
+
+.deskripsi p {
+    font-size: 20px;
+    color: #37465d;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.deskripsi a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.deskripsi a:hover {
+    text-decoration: underline;
+}
+
+#rundown {
+      display: flex;
+      gap: 16px;
+      padding: 16px;
+      border-radius: 10px;
+    }
+
+    /* Styling masing-masing kotak di dalam section */
+    .card {
+      flex: 1; /* Membuat lebar kedua kotak sama rata */
+      background-color: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 16px 20px;
+    }
+
+    .card h2 {
+      margin: 0 0 10px 0;
+      font-size: 1.1rem;
+      color: #0f172a;
+    }
+
+    .card ul,
+    .card ol {
+      margin: 0;
+      padding-left: 20px;
+      color: #334155;
+      line-height: 1.6;
+    }
+
+    /* Opsional: Jika ingin tampilan responsif di layar HP */
+    @media (max-width: 600px) {
+      #rundown {
+        flex-direction: column;
+      }
+    }
+
+    #daftar {
+      padding: 16px;
+    }
+
+    /* Form menggunakan flex-direction: column dan gap: 10px sesuai gambar */
+    #daftar form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    /* Baris pertama untuk input teks, email, tanggal, dan select */
+    .form-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .form-row input,
+    .form-row select {
+      flex: 1;
+      min-width: 180px;
+      padding: 10px 12px;
+      border: 1px solid #94a3b8;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      color: #334155;
+      background-color: #f8fafc;
+    }
+
+    /* Baris kedua untuk checkbox persetujuan dan tombol submit */
+    .form-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 4px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #334155;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: #0e4a56;
+      cursor: pointer;
+    }
+
+    .btn-submit {
+      background-color: #0e4a56;
+      color: #ffffff;
+      border: none;
+      padding: 10px 24px;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .btn-submit:hover {
+        background-color: #093640;
+    }
+
+    .footer{
+        background-color: #0f172a;
+        color: #94a3b8;
+        margin: 15px 18px;
+        padding: 20px 38px;
+        border-radius: 12px;
+        text-align: center;
+    }
